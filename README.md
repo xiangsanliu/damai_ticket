@@ -1,8 +1,39 @@
-### 提前准备
-* Python 3.6.3
-* Chromedriver.exe
-* Chrome 浏览器安装好后需将chromedriver.exe放置于Chrome浏览器目录下
-* pip install selenium requests lxml
+### python环境
+* python3.6.3
+  * 建议安装我推荐的这个版本，其他版本或多或少存在点问题
+  
+### 包下载
+* 推荐使用清华源或者豆瓣源下载
+  * pip install -i https://pypi.tuna.tsinghua.edu.cn/simple requests selenium lxml
+  * pip install requests selenium lxml -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com
+
+
+### chromedriver配置
+* 载完chrome浏览器之后，点击浏览器最右边的三个点，依次点击---》帮助---》关于Google Chrome，查看自己的Chrome版本
+
+  <img src="https://img-blog.csdnimg.cn/26ac31256b5a4049a68b52991fe0b3f7.png#pic_center" alt="在这里插入图片描述" style="zoom:50%;" />
+
+* 下载和Chrome版本对应的ChromeDriver软件 
+
+  * 链接：http://chromedriver.storage.googleapis.com/index.html 
+
+  * 我自己的Chrome版本是110.5481.78，那么就在链接里找到对应chromedriver的版本，并进行下载，这里我下载的是**windows系统**
+
+    可以看到，链接中并没有完全一致的版本，那么就**挑选一个和当前chrome版本日期最近的版本**，因此这里我选择下载104.0.5112.79
+
+    <img src="https://img-blog.csdnimg.cn/631b602ffebe4e1693a12f5caf94d64e.png#pic_center" alt="在这里插入图片描述" style="zoom:67%;" />
+
+    点进去，继续下载
+
+    <img src="https://img-blog.csdnimg.cn/a7a674a4b47746298f3f236bb66a8caa.png#pic_center" alt="在这里插入图片描述" style="zoom: 67%;" />
+
+​              windows系统下载win32位的zip压缩包即可
+
+* 下载之后进行解压，得到**chromedriver.exe**
+
+  * 打开安装chrome浏览器的目录，将 **chromedriver.exe**放入当前目录中
+
+  <img src="https://img-blog.csdnimg.cn/c29caa0656ef4ab190cc96387a63f61b.png#pic_center" alt="在这里插入图片描述" style="zoom:67%;" />
 
 ### 参数设置
 
