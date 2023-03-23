@@ -1,19 +1,20 @@
+# ~~由于大麦网页更新，提供的原始代码和使用教程已经失效~~
 ### python环境
 * python3.6.3
-  * 建议安装我推荐的这个版本，其他版本或多或少存在点问题
+  * ~~建议安装我推荐的这个版本，其他版本或多或少存在点问题~~
   
 ### 包下载
 * 推荐使用清华源或者豆瓣源下载
-  * pip install -i https://pypi.tuna.tsinghua.edu.cn/simple requests selenium lxml
-  * pip install requests selenium lxml -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com
+  * ~~pip install -i https://pypi.tuna.tsinghua.edu.cn/simple requests selenium lxml~~
+  * ~~pip install requests selenium lxml -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com~~
 
 
 ### chromedriver配置
-* 载完chrome浏览器之后，点击浏览器最右边的三个点，依次点击---》帮助---》关于Google Chrome，查看自己的Chrome版本
+* ~~载完chrome浏览器之后，点击浏览器最右边的三个点，依次点击---》帮助---》关于Google Chrome，查看自己的Chrome版本~~
 
   <img src="https://img-blog.csdnimg.cn/26ac31256b5a4049a68b52991fe0b3f7.png#pic_center" alt="在这里插入图片描述" style="zoom:50%;" />
 
-* 下载和Chrome版本对应的ChromeDriver软件 
+* ~~下载和Chrome版本对应的ChromeDriver软件~~
 
   * 链接：http://chromedriver.storage.googleapis.com/index.html 
 
@@ -37,7 +38,7 @@
 
 ### 参数设置
 
-在`config.json`中输入相应配置信息，具体说明如下：
+~~在`config.json`中输入相应配置信息，具体说明如下：~~
 
 * `date`: 日期选择
 * `sess`: 场次优先级列表，如本例中共有三个场次，根据下表，则优先选择1，再选择2，最后选择3；也可以仅设置1个。
